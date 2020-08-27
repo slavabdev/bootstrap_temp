@@ -1,0 +1,201 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.container-wrapper {}
+
+.container-wrapper--yellow {
+    background-color:#ffc107; 
+    color: #424242;
+}
+
+ /* Containers */
+.alert-container .col-12 {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+    
+}
+
+.site-wide-alert {
+    border-radius:0;
+    margin: 0;
+    padding: 15px 5px;
+    background-color: rgb(254 255 0);
+    border-color: rgb(254 255 0);
+    color: black;
+}
+
+/*Navbar*/
+
+.navalert-container {
+    position:absolute;
+    left: 0;
+    top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25)
+}
+
+.navbar .navbar-toggler {
+    border:0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/*Content container*/
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.callout-container {
+    height: 100vh;
+    background: url("../images/4242.jpg") no-repeat right bottom fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position:relative;
+}
+
+.quotes-container {}
+
+/*Headings*/
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+
+.features-container {}
+
+/* Block deviders */
+.block-devider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color:#ffc107;
+}
+
+.block-devider--yellow {
+    background-color:#ffc107;
+    
+}
+
+.block-devider--white {
+    background-color:white;
+    margin-bottom: 25px;
+}
+
+.block-devider--short {
+    width: 35px;
+}
+
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+    
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #eae4d0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/*Buttons*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+
+}
+
+.btn--yellow {
+    color:white;
+    background-color: #ffc107;
+    border-color:#ffc107;
+}
+
+.btn--yellow:hover,
+.btn--yellow:active,
+.btn--yellow:focus,
+.btn--yellow:active:focus {
+    background-color: #feff07;
+    border-color: #feff07;
+    color:#01010d;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #424242;
+
+}
+

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holly Bean</title>
+        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+       
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid navalert-container">
+        <div class="container-fluid alert-container">
+                <div class="row d-none d-sm-block">
+                    <div class="col-12">
+                        <div class="site-wide-alert alert alert-warning">
+                            <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">Holly Bean</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2 ">
+                    <a class="nav-link" href="#" >Home </a>
+                    </li>
+                    <li class="nav-item mr-2 ">
+                    <a class="nav-link" href="#">Quotes</a>
+                    </li>
+                    <li class="nav-item mr-2 ">
+                    <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">Rating</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Coffees
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Ethiopia</a>
+                <a class="dropdown-item" href="#">Kenya</a>
+                <a class="dropdown-item" href="#">Brasil</a>
+                <a class="dropdown-item" href="#">Costa Rica</a>
+                </div>
+            </li>
+                </ul>
+            
+                    <div class="d-none d-md-block">
+                        <p class="navbar-text my-auto mr-2"><i>Freshly roasted coffee delivered to your door</i></p>
+                        <a href="/login" class="btn btn--cta btn--yellow">Sign In / Sign Up</a>
+                    </div>
+        </div>
+    </nav>
+    </div>
+         
+      <div class="container-fluid callout-container">
+        <!-- Callout -->
+        <div class="opaque-overlay">&nbsp;</div>  
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1 class="jumbotron-header"> The freshly roasted coffee delivered to your doorstep.</h1>
+                    <hr class="block-devider block-devider--yellow">
+                    <p class="lead">Sign up today to start receiving the freshly roasted coffee every week. 
+                    <s class="d-none d-sm-inline">19.99</s> 
+                    <span class="d-inline d-sm-nobtnne"><br></span>
+                    <mark><strong>First one is free!</strong></mark></p>
+            
+                    <p><button type="button" class="btn btn--cta btn--yellow btn-lg" data-toggle="modal" data-target="#signUpModal">Sign in!</button></p>
+                    <p class="text-muted"><small >Delivery available only in Ireland .</small></p>
+                </section>
+             </div>
+            </div>
+         </div>
+        <!-- /.callout -->
+        <div class="container-wrapper">
+        <!-- Quotes -->
+        <div class="content-container container quotes-container">
+            <section class="quotes">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">Quotes:</h2>
+                        <hr class="block-devider block-devider--short">
+                    </div>
+                    
+                        <div class="col-12 col-md-6 mt-3">
+                            <div class="media">
+                                <div class="d-none d-sm-block">
+                                    <img src="images/girl-image.png" class="rounded-circle mr-3" width=100 height=100 alt="girl">
+                                </div>
+                                <div class="media-body">
+                                    <blockquote class="quote">
+                                        <p>I've never tried such a fresh coffee in my life!</p>
+                                        <footer class="blockquote-footer">Jane Doe on <cite title="Source Title">Facebook</cite></footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-12 col-md-6 mt-3">
+                        <div class="media">
+                                <div class="d-none d-sm-block">
+                                    <img src="images/guy-image.png" class="rounded-circle mr-3" width="100" height="100" alt="guy">
+                                </div>
+                            <div class="media-body">
+                                <blockquote class="quote">
+                                    <p>I am a regular customer here! I highly recommend this guys! Service is amazing!</p>
+                                    <footer class="blockquote-footer">Jane Doe on <cite title="Source Title">Twitter</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </div>
+        <!-- /.quotes -->
+     <div class="container-wrapper container-wrapper--yellow">
+
+        <div class="container features-container content-container">
+            <!-- Features -->
+            <section class="features">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">Features:</h2>
+                        <hr class="block-devider block-devider--short block-devider--white">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3> <i class="fas fa-gift d-none d-sm-block"></i> Feature 1 <span class="badge badge-success">New!</span></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p><a class="btn btn-sm btn-outline-secondary" href="">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3> <i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p><a class="btn btn-sm btn-outline-secondary" href="">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 d-md-none d-lg-block col-lg-4">
+                        <div class="feature">
+                            <h3> <i class="fas fa-times-circle d-none d-sm-block"></i> Feature 3</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p><a class="btn btn-sm btn-outline-secondary" href="">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </div>
+        <!-- /.features -->
+        <!--<hr>
+
+        table
+        <section class="table">
+        <h2>List of the most popular coffees!</h2>
+        <br>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Place</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Origin</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="col">1</th>
+                        <td>Name</td>
+                        <td>Origin</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">2</th>
+                        <td>Name</td>
+                        <td>Origin</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">3</th>
+                        <td>Name</td>
+                        <td>Origin</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">4</th>
+                        <td>Name</td>
+                        <td>Origin</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">5</th>
+                        <td>Name</td>
+                        <td>Origin</td>
+                    </tr>
+    
+                </tbody>
+            </table>
+        </section> -->
+    
+<!--Modal window-->
+<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Sign Up for Holly Bean!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Type your email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Create your password">
+            </div>
+            <div class="form-group">
+                <label for="repeat_password">Repeat password</label>
+                <input type="password" class="form-control" id="repeat_password" placeholder="Repeat your password">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--JavaScript Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
